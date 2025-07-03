@@ -1,0 +1,121 @@
+2025-06-10 21:29:09,644:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\h2o\frame.py:1983: H2ODependencyWarning: Converting H2O frame to pandas dataframe using single-thread.  For faster conversion using multi-thread, install polars and pyarrow and use it as pandas_df = h2o_df.as_data_frame(use_multi_thread=True)
+
+
+2025-06-10 21:35:25,618:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning: Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+2025-06-10 21:35:26,382:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning: Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+2025-06-10 21:35:26,382:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning: Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+2025-06-13 22:48:36,712:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-13 22:48:37,283:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-13 22:48:37,283:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-13 22:56:16,062:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-13 22:56:16,771:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-13 22:56:16,773:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-14 10:37:52,626:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\h2o\frame.py:1983: H2ODependencyWarning: Converting H2O frame to pandas dataframe using single-thread.  For faster conversion using multi-thread, install polars and pyarrow and use it as pandas_df = h2o_df.as_data_frame(use_multi_thread=True)
+
+  warnings.warn("Converting H2O frame to pandas dataframe using single-thread.  For faster conversion using"
+
+2025-06-14 11:08:30,274:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-14 11:08:31,146:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:08:31,147:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:11:05,182:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-14 11:11:05,863:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:11:05,863:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:21:09,706:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-14 11:21:10,447:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:21:10,447:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:42:45,719:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-14 11:42:46,519:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:42:46,527:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:46:33,044:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\missingno\missingno.py:61: UserWarning:
+
+Plotting a sparkline on an existing axis is not currently supported. To remove this warning, set sparkline=False.
+
+
+2025-06-14 11:46:33,942:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+
+
+2025-06-14 11:46:33,945:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\seaborn\matrix.py:309: UserWarning:
+
+Attempting to set identical low and high ylims makes transformation singular; automatically expanding.
+
+
+2025-06-26 20:12:41,998:WARNING:C:\Users\yuvra\AppData\Local\Programs\Python\Python312\Lib\site-packages\autogluon\common\utils\utils.py:97: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+

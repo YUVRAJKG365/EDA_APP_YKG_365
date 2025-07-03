@@ -1,0 +1,11 @@
+{
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSaveWorkspaceFilesOnly": false,
+    "files.simpleDialog.enable": true,
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.typeCheckingMode": "off"
+}
