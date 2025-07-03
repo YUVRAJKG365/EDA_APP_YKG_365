@@ -441,7 +441,7 @@ def extraction_ui():
 
     tracker.log_section(section)
     """Streamlit UI for the extraction feature with advanced image analysis"""
-    st.header("Universal Data Extraction with Advanced Image Analysis")
+    st.header("Text Data & Image Extraction ")
     
     # Use session manager for file upload
     uploaded_filext = handle_file_upload(

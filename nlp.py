@@ -65,11 +65,6 @@ stop_words = set(stopwords.words('english'))
 
 # Initialize pretrained models
 vader = SentimentIntensityAnalyzer()
-try:
-    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-except:
-    summarizer = None
-    st.warning("Could not load BART summarizer. Using extractive summarization only.")
 
 
 # Text preprocessing functions
@@ -606,22 +601,6 @@ def perform_text_summarization(text_series, method='extractive', num_sentences=3
                 summaries.append("")
         return summaries
 
-    elif method == 'abstractive' and summarizer is not None:
-        # Using BART model
-        summaries = []
-        for text in text_series:
-            if len(text) > 100:  # Minimum length for abstractive summarization
-                try:
-                    summary = summarizer(text, max_length=130, min_length=30, do_sample=False)
-                    summaries.append(summary[0]['summary_text'])
-                except:
-                    summaries.append("")
-            else:
-                summaries.append(text)
-        return summaries
-    else:
-        st.warning("Abstractive summarization not available. Using extractive method.")
-        return perform_text_summarization(text_series, method='extractive', num_sentences=num_sentences)
 
 
 def perform_text_clustering(df, text_col, num_clusters=5, method='tfidf'):
