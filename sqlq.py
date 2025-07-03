@@ -22,9 +22,6 @@ def sqlq_ui():
     # Section name for isolation
     section = "SQL Query"
     
-    # --- File Upload Section ---
-    st.markdown("### 📤 Upload & Auto-Convert Files to SQL Tables")
-    
     # Use the session manager's file uploader key for this section
     uploaded_files = st.file_uploader(
         "Upload CSV/Excel files",

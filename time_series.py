@@ -1154,7 +1154,7 @@ def render_time_series_section():
     section = "Time Series"  # Define section name
 
     tracker.log_section(section)
-    st.markdown("## ⏳ Advanced Time Series Analysis")
+    st.markdown("## ⏳ Time Series Analysis")
     st.markdown("Analyze, forecast, and visualize trends, patterns, seasonality, and anomalies in time-based data.")
 
     # --- File uploader for CSV/Excel only ---
@@ -1166,17 +1166,6 @@ def render_time_series_section():
             title="Upload a CSV or Excel file",
             help_text="Only structured CSV or Excel files with rows and columns are supported."
         )
-
-        # --- Clear Data & Operations Button ---
-        if st.button("🗑️ Clear Data & Operations", key="clear_ts_data"):
-            # Use session manager to clear section data
-            session_manager.clear_section_data(section)
-            # Clear tracker logs
-            if hasattr(tracker, 'logs'):
-                tracker.logs.clear()
-            # Stay in Time Series section
-            st.session_state.selected_section = section
-            st.rerun()
 
         # Display file info if processed
         if session_manager.get_data(section, 'file_processed', False):

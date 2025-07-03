@@ -8,7 +8,7 @@ import time
 from sklearn.preprocessing import LabelEncoder
 
 # ==== ADVANCED CONFIGURATION ====
-GEMINI_API_KEY = "AIzaSyAOEk8MUDADA3tFkN7ylA3Pfe8QkDGNNYY"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 PROMPT_LIMIT = 25
 COOLDOWN_HOURS = 24
@@ -83,7 +83,7 @@ def is_data_related(query):
     return any(keyword in query for keyword in data_keywords)
 
 def chatbot_response(user_input, context=None):
-    if not GEMINI_API_KEY or GEMINI_API_KEY.strip() == "AIzaSyAOEk8MUDADA3tFkN7ylA3Pfe8QkDGNNYY":
+    if not GEMINI_API_KEY or GEMINI_API_KEY.strip() == "GEMINI_API_KEY":
         return "🔑 Gemini API key not configured. Please set your API key in chatbot.py."
 
     if not can_prompt():
@@ -266,12 +266,6 @@ def display_usage_status():
 def chatbot_ui():
     """Advanced AI Data Scientist Chat Interface"""
     st.markdown("## 🧠 AI Data Scientist Assistant")
-    st.markdown("""
-    <div style="border-left: 4px solid #4e73df; padding-left: 1rem; margin-bottom: 1.5rem">
-        Interact with your expert AI Data Scientist. Get insights, analysis recommendations, 
-        and data-driven strategies tailored to your specific dataset.
-    </div>
-    """, unsafe_allow_html=True)
     
     # Expert mode toggle
     st.session_state.expert_mode = st.toggle(

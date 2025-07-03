@@ -5,7 +5,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-from chatbot import chatbot_ui
+#from chatbot import chatbot_ui
 from extraction import extraction_ui
 from image_analysis import render_image_analysis_section
 from nlp import render_nlp_section
@@ -324,9 +324,9 @@ with section_container:
             render_nlp_section()
     
     # Chatbot Section        
-    if 'selected_section' in st.session_state and st.session_state.selected_section == "Chatbot":
+    '''if 'selected_section' in st.session_state and st.session_state.selected_section == "Chatbot":
         with st.container():
-            chatbot_ui() 
+            chatbot_ui() '''
     
     # SQL Section
     if 'selected_section' in st.session_state and st.session_state.selected_section == "SQL Query":

@@ -878,7 +878,7 @@ def sanitize_column_names(df):
     return df
 
 def prediction_section(df):
-    st.subheader("🚀 Advanced Future Prediction Engine")
+    st.subheader("🚀 Advanced Future Prediction")
     
     if 'ml_data' not in st.session_state:
         st.warning("Please load and process your data in the ML Training section first")
@@ -1586,7 +1586,7 @@ def show_model_history():
         st.info("No model training history available")
 
 def render_ml_section():
-    st.title("🧠 Advanced Machine Learning Studio")
+    st.title("🧠 Advanced Machine Learning ")
     st.markdown("Transform your data into predictive insights with our powerful ML tools")
     
     # File uploader with drag and drop
@@ -1630,6 +1630,7 @@ def render_ml_section():
                         show_model_history()
     else:
         # Welcome screen with features
+        st.info("- Use Clean and Refine Dataset For Better ML Training & Outcomes")
         st.info("Upload a dataset to get started with machine learning")
         
         # Feature showcase

@@ -571,7 +571,7 @@ def home_ui():
     with st.expander("📁 Upload Data", expanded=True):
         uploader_key = f"file_uploader_{st.session_state.file_uploader_key}"
         uploaded_file = st.file_uploader(
-            "Choose a CSV, Excel, PDF, Text, or Image file",
+            "Choose Document File or Image File",
             type=["csv", "xlsx", "xls", "txt", "pdf", "png", "jpg", "jpeg", "bmp", "tiff", "gif", "webp", "docx", "pptx"],
             key=uploader_key,
             help="Supported formats: CSV, Excel (xlsx, xls), PDF, Text, Images (png, jpg, jpeg, bmp, tiff, gif, webp), DOCX, PPTX"

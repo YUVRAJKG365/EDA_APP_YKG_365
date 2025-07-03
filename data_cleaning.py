@@ -13,9 +13,7 @@ def clean_data(df, cleaning_method, fill_value, drop_axis, remove_duplicates=Fal
               remove_outliers_col=None, convert_dtype_col=None, convert_dtype_target=None,
               trim_whitespace=False, text_case=None, scaling_method=None, encoding_method=None,
               parse_dates=False, handle_inconsistent_categories=False, string_operations=None):
-    """
-    Comprehensive data cleaning and preprocessing function
-    """
+
     # Handle missing values
     if cleaning_method == "Drop Missing Values":
         if drop_axis == "rows":
@@ -256,10 +254,9 @@ def highlight_anomalies(val, anomaly_mask):
 
 def render_data_cleaning_section():
     tracker = st.session_state.tracker
-    tracker.log_section("Data Cleaning")
     cleaning_msg = st.empty()
     st.markdown("## 🧹 Data Cleaning")
-    st.markdown("Clean your dataset by handling missing values, outliers, and anomalies.")
+    st.markdown("Clean & Refine your Dataset ")
 
     if (
         'df' in st.session_state
