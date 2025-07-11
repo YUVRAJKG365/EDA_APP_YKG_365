@@ -1,113 +1,113 @@
-# 📊 EDA App – Advanced Exploratory Data Analysis Platform
+# 📊 EDA App – AI-Powered Exploratory Data Analysis Platform
 
-**EDA_App_YKG** is a modular, all-in-one data analysis platform built with **Streamlit**. It offers comprehensive tools for **data preprocessing**, **visualization**, **machine learning**, and **AI-powered automation**, all accessible through a beautiful and interactive UI. The app supports structured data, unstructured text, images, PDFs, and SQL-based datasets.
+**EDA_App_YKG** is an all-in-one, AI-integrated Exploratory Data Analysis platform developed by **Yuvraj Kumar Gond** using **Streamlit**. The app enables end-to-end data workflows including data cleaning, visualization, machine learning, document/image analysis, SQL querying, and natural language processing — all supported by a powerful AI assistant and 10+ machine learning models.
 
-> ⚠️ **Note**: This is an **individual project** developed by **Yuvraj Kumar Gond** for academic and demonstration purposes. It is **not open source** and is not intended for commercial or production use.
-
----
-
-## 🧠 Key Features
-
-- 📁 Load structured data, images, and PDFs
-- 🧹 Clean and preprocess datasets effortlessly
-- 📊 Generate interactive charts and visual summaries
-- 🧠 Train ML models directly within the app
-- 💬 AI Chatbot assistant for smart guidance
-- 🖼️ Image OCR, analysis, and PDF extraction
-- 🔤 NLP features like keyword extraction and sentiment analysis
-- 🗄️ SQL query execution on datasets
-- ⏳ Time series decomposition and forecasting
-- 🌈 Custom UI with animated transitions and vibrant design
+> ⚠️ **Note**: This project is an academic and portfolio-level demonstration. It is **not open-source** and not designed for clinical, commercial, or production use.
 
 ---
 
-## 🧪 ML/NLP/AI Integrations
+## 🌟 Highlights
 
-- `Scikit-learn`, `XGBoost` for predictive modeling
-- `OCR`, `PyMuPDF` for document/image parsing
-- `TextBlob/NLTK` for NLP and sentiment analysis
-- Preprocessed models integrated for instant results
-
-
----
-
-## 🧾 Input Support
-
-| Type       | Supported Formats |
-|------------|-------------------|
-| Structured | CSV, Excel        |
-| Documents  | PDF (Text + Image)|
-| Images     | PNG, JPG          |
-| Database   | SQL queries       |
+✅ Upload and explore structured, text, image, and PDF data  
+✅ Modular UI: Clean, animated, and performance-optimized  
+✅ Visual storytelling with interactive charts  
+✅ Run ML models and analyze predictions without writing code  
+✅ Use NLP for summarization, sentiment, and keyword extraction  
+✅ Ask questions and get insights with Gemini AI Assistant  
+✅ Ideal for data analysts, AI engineers, educators & students
 
 ---
 
-## ⚙️ How to Run
+## 🧠 Modules at a Glance
 
-### 1. Clone the Repository
+| Module            | Description |
+|-------------------|-------------|
+| 🏠 Home           | Upload files and start exploring |
+| 🧹 Data Cleaning  | Null handling, formatting, filtering |
+| 📈 Visualizations | Heatmaps, correlation plots, scatter, bar, pie |
+| ⏳ Time Series    | Forecasting, trend and seasonality analysis |
+| 🤖 Machine Learning | Train & test models with no-code UI |
+| 🔤 NLP            | Sentiment analysis, keyword extraction, word clouds |
+| 🖼️ Image Analysis | OCR from images and PDFs |
+| 💬 Chatbot        | AI-powered Gemini Assistant Analyst |
+| 🗄️ SQL Query      | Write and execute SQL queries on data |
+| 📤 Extraction     | Extract text from image/PDF and scanned content |
+
+---
+
+## 🤖 ML, NLP & AI Integrations
+
+The app includes over **10 different ML algorithms**, suited for classification, regression, clustering, and forecasting:
+
+### 🔬 Machine Learning Models Used
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier  
+- XGBoost Classifier  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN)  
+- Gradient Boosting  
+- Naive Bayes  
+- Linear Regression  
+- ARIMA / Seasonal Decomposition (Time Series)  
+- Ensemble Voting Classifiers  
+- Dimensionality Reduction (PCA, t-SNE for visualization)  
+
+### 📘 NLP Techniques
+- Sentiment Analysis (TextBlob / VADER)  
+- Keyword Extraction  
+- Named Entity Recognition  
+- Word Cloud Generation  
+- Summarization (via frequency-based techniques)
+
+### 🤝 Gemini AI Integration
+- 💬 **Gemini AI Assistant** acts as your smart EDA guide  
+- Get auto-suggestions, interpretation of visualizations, column explanations, or even dataset summarization  
+- Ask questions like:  
+  > “What columns are correlated?”  
+  > “Which feature affects prediction most?”  
+  > “What does this visualization mean?”  
+
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ How to Run the App
+
+### Step 1: Clone the Repo
 ```bash
 git clone https://github.com/YUVRAJKG365/EDA_App_YKG.git
 cd EDA_App_YKG
-2. Install Dependencies
+Step 2: Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Launch the Streamlit App
+Step 3: Launch the App
 bash
 Copy
 Edit
 streamlit run app.py
-🧭 App Navigation
-🏠 Home – Upload data and get started
+🧭 Use Cases
+📊 Perform fast EDA for analytics or competitions
 
-🧹 Data Cleaning – Handle missing values, formatting, and outliers
+🧪 Academic research involving structured + unstructured data
 
-📈 Visualizations – Create scatter plots, bar graphs, pie charts, heatmaps
+🧠 AI/ML model testing & performance evaluation
 
-⏳ Time Series – Forecasting and trend analysis
+📚 Classroom tool for teaching ML and EDA without code
 
-🤖 Machine Learning – Train models and make predictions
-
-🔤 NLP – Text summarization, sentiment analysis
-
-🖼️ Image Analysis – OCR, metadata extraction, visual insight
-
-🗄️ SQL Query – Query dataset tables with raw SQL
-
-💬 Chatbot – AI assistant to help users during analysis
-
-📤 Extraction – Extract data from files and scanned documents
-
-🔍 Example Use Cases
-🏢 Internal business analytics dashboards
-
-📊 Rapid EDA for data science workflows
-
-🧪 Research and academic data preprocessing
-
-🧑‍💼 Client-side analysis reports or MVPs
-
-📚 Data cleaning for ML pipeline input
-
-📌 Future Enhancements
-🌐 Deploy to Streamlit Cloud or Hugging Face
-
-📲 Mobile-friendly UI
-
-🧠 Auto-EDA + LLM-based code explanations
-
-🗃️ Database integration (MySQL, PostgreSQL)
-
-🧾 Export full EDA reports as PDF
+🧑‍💼 Prototype or demo AI features to clients
 
 👨‍💻 Developer Info
 🧑 Yuvraj Kumar Gond
+📍 India
 🔗 GitHub: @YUVRAJKG365
-📍 Location: India
 📅 Version: 2.0
-📘 Status: Individual academic project — not open source
+📘 Status: Academic showcase project — not open source
 
 🛑 Disclaimer
-This software is intended for academic and educational purposes only. It should not be used for actual commercial deployment or professional analysis without review and verification.
-
+This software is intended solely for academic and personal portfolio use. It is not reviewed or certified for real-world, medical, financial, or business-critical deployment.
