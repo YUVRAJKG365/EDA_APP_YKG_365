@@ -1,0 +1,21 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+scikit-learn
+scikit-image
+opencv-python
+deepface
+pytesseract
+Pillow
+python-docx
+python-pptx
+PyMuPDF
+openpyxl
+docx2txt
+# Optional: for PDF extraction fallback
+pdfminer.six
+# For zip/unzip DOCX
+zipfile36
+# If using session state manager and memory manager as custom modules, no pip install needed
