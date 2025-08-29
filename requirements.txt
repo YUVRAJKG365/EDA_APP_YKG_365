@@ -14,7 +14,7 @@ python-pptx
 PyMuPDF
 openpyxl
 docx2txt
-cv2
+opencv-python
 # Optional: for PDF extraction fallback
 pdfminer.six
 # For zip/unzip DOCX
